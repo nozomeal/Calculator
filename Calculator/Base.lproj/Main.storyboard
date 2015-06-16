@@ -146,7 +146,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="division" destination="vXZ-lx-hvc" eventType="touchDragInside" id="XqI-VL-Xy7"/>
+                                    <action selector="division" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VUQ-cV-5Wd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIS-Lt-zgn">
