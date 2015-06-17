@@ -186,7 +186,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXo-X4-qtf">
-                                <rect key="frame" x="33" y="321" width="142" height="71"/>
+                                <rect key="frame" x="33" y="287" width="142" height="105"/>
                                 <color key="backgroundColor" red="0.95776120580808077" green="0.68047709861854744" blue="0.61655007411910345" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="clear">
@@ -207,6 +207,18 @@
                                 </state>
                                 <connections>
                                     <action selector="select0" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DHX-2v-nTh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IqY-Bb-26x">
+                                <rect key="frame" x="177" y="287" width="70" height="59"/>
+                                <color key="backgroundColor" red="1" green="0.30518147098557236" blue="0.51041893957628881" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ten" destination="vXZ-lx-hvc" eventType="touchUpInside" id="j8Y-Yr-WFH"/>
                                 </connections>
                             </button>
                         </subviews>
